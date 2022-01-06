@@ -1,0 +1,92 @@
+
+/*---------------------SMALL PHONES-------------------------*/
+@media only screen and (max-width:480px){
+    
+}
+
+
+/*----------------SMALL PHONES TO TABS----------------------*/
+@media only screen and (max-width:767px){
+    col{
+        width: 100%;
+    }
+    .section-join h5{
+        font-size: 60%;
+    }
+    .section-team h2{
+        padding-top: 30px;
+        font-size: 120%;
+    }
+    .main-header-text img{
+        width: 200px;
+    }
+    .main-header-text h2{
+        font-size: 70%;
+    }
+    .section-events p{
+        font-size: 60%;
+    }
+    .section-on_air_with_biobytes p{
+        font-size: 60%;
+    }
+    .mobile-nav-icon{
+        display: inline-block;
+    }
+    .main-nav{
+        float: left;
+    }
+    .main-nav li{
+        display: block;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: block;
+        border: 0;
+    }
+    .section-team h3{
+        font-size: 60%;
+    }
+
+    .section-join iframe{
+        width: 380px;
+    }
+    .section-team .members{
+        margin-left: 20px;
+    }
+}
+
+
+/*----------------SMALL TABS TO BIG TAB-----------------------*/
+@media only screen and (max-width:1023px){
+    body{font-size: 16px;}
+    section{padding: 60px 0;}
+    .long-copy{
+    width:80%;
+    margin-left: 10%;
+}
+    .steps-box{   margin-top: 10px; }
+    .works-steps{margin-bottom: 40px;}
+    .works-steps:last-of-type{margin-bottom: 80px}
+
+
+}
+
+
+
+
+/*----------------BIG TAB TO DESKTOP-----------------------*/
+@media only screen and (max-width:1200px){
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+}
+    .row{
+        padding: 0 2%;
+    }
+ 
+
+
+}
+
+
+
